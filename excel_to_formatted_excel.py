@@ -4,7 +4,7 @@
 # Output: inspection_reports.xlsx
 
 import os, re, time
-from pathlib import Path
+from pathlib import Path 
 import pandas as pd
 from openpyxl import load_workbook
 from openpyxl.styles import Alignment
@@ -192,3 +192,4 @@ if __name__ == "__main__":
     output_x = base/"inspection_reports.xlsx"
 
     build_output(input_x, templ_x, output_x)
+
