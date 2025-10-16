@@ -7,7 +7,7 @@
 #   so your converter has places to write (with matching anchors in _anchors)
 
 from openpyxl import Workbook
-from openpyxl.styles import Font, Alignment, Border, Side
+from openpyxl.styles import Font, Alignment, Border, Side 
 from openpyxl.utils import get_column_letter
 
 # ---------- Styles ----------
@@ -196,4 +196,5 @@ if __name__ == "__main__":
     wb = build_template()
     wb.save("inspection_template2.xlsx")
     print("Wrote inspection_template2.xlsx")
+
 
