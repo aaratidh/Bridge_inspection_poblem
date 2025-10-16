@@ -7,13 +7,16 @@ It take inspection data (from Excel) and automatically make a formatted report w
 
 
 ## Inside it, put these files:
-
+```bash
 excel_to_excel/
-├─ excel_to_formatted_excel.py        ← (main program you run)
-├─ inputexcelfile.xlsx                ←  input data file
-├─ photo/                             ← folder containing the pictures
+├─ excel_to_formatted_excel.py   ← (main program you run)
+├─ exceltemplateWSP.py           ← (builds the inspection template)
+├─ inputexcelfile.xlsx           ← input data file
+├─ photo/                        ← folder containing the pictures
 │  ├─ AA_113_2933.jpg
 │  └─ BB_001_0002.jpg
+
+```
 
 ## Step 2: Install Python (if not already)
 - Go to https://www.python.org/downloads
@@ -37,8 +40,9 @@ excel_to_excel/
 Your photo folder must have the matching photos.
 ## Step 5: Run the Script
 - Still in the same folder, run:
-- python excel_to_report_wsp.py
-
+- python excel_templateWSP.py
+- it will geberate Template2.xls file
+- then run python excel_to_formatted_excel.py
 
 You’ll see something like:
 
@@ -56,7 +60,3 @@ Report generated: inspection_reports.xlsx
 - Text fields filled in
 - Photos automatically added in the lower photo box
 
-## what you will recived
-✅ Each inspection record → its own sheet
-✅ Text fields filled in
-✅ Photos automatically added in the lower photo box
