@@ -29,18 +29,13 @@ excel_to_excel/
 - Then install everything you need: "pip install openpyxl pandas pillow"
 
 ## Step 4: Prepare the Excel Files
-
-Your inputexcelfile.xlsx should have columns like:
-
-BIN | Inspection Date | ... | Photo Filename | Photo Path
-
-Example:
-
-1065318 | 2022-08-31 | ... | AA_113_2933 | C:\Users\Hp\Desktop\excel_to_excel\photo
+- Your inputexcelfile.xlsx should have columns like:
+- BIN | Inspection Date | ... | Photo Filename | Photo Path
+- Example:
+  1065318 | 2022-08-31 | ... | AA_113_2933 | C:\Users\Hp\Desktop\excel_to_excel\photo
 
 Your photo folder must have the matching photos.
 ## Step 5: Run the Script
-
 - Still in the same folder, run:
 - python excel_to_report_wsp.py
 
@@ -53,16 +48,15 @@ Working directory: C:\Users\Hp\Desktop\excel_to_excel
 Report generated: inspection_reports.xlsx
 
 ## Step 6: Open the Result
+- Open the new file:
 
-Open the new file:
-
-inspection_reports.xlsx
+"inspection_reports.xlsx"
 
 - Each inspection record → its own sheet
 - Text fields filled in
 - Photos automatically added in the lower photo box
 
-
+## what you will recived
 ✅ Each inspection record → its own sheet
 ✅ Text fields filled in
 ✅ Photos automatically added in the lower photo box
