@@ -7,4 +7,4 @@
 - I wrote this script to read inspection data from an input Excel file and fill the template row by row. It normalizes column names, maps them to the correct fields, and generates one completed report sheet per record by copying the template.The script also processes photo paths and filenames, locates the corresponding images (even when extensions differ), and places up to two photos in the report at fixed positions. Each image is resized proportionally to fit neatly within its section. After all reports are created, it removes the template and anchor sheets and saves everything in a single Excel file.
 
 ## In summary:
-- I built an automated workflow that transforms raw inspection data and photo references into polished, professional Excel reports — one sheet per record — with all text and images placed precisely according to the defined layout.
+- I built an automated workflow that transforms raw inspection data and photo references into polished, professional Excel reports ,one sheet per record ,with all text and images placed precisely according to the defined layout.
