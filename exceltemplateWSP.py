@@ -196,3 +196,4 @@ if __name__ == "__main__":
     wb = build_template()
     wb.save("inspection_template2.xlsx")
     print("Wrote inspection_template2.xlsx")
+
