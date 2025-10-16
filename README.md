@@ -1,4 +1,6 @@
-# I developed a two-part system to generate structured inspection reports in Excel.
+# Workflow to generate bridge inspection record from scratch
+
+## I developed a two-part system to generate structured inspection reports in Excel.
 
 ## Part 1 – Template Builder (exceltemplateWSP.py)
 - I designed a clean, formatted Excel template for bridge inspection reports. The script defines consistent styles, borders, and column widths, and organizes sections for the project title, inspection details, notes, condition states, descriptions, and photographs. Each section includes labeled areas for data entry. I also created a hidden “_anchors” sheet that maps each field name (like BIN, Team Leader, Condition Note, Photo Filename) to a specific cell location, allowing the next script to populate the template automatically.
